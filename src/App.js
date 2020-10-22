@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Counter from "./Counter";
 import './App.css';
+import HighscoreList from "./HighscoreList";
 
 class App extends Component {
   render() {
@@ -10,6 +11,7 @@ class App extends Component {
         <h2>Better start working bitch</h2>
         <Counter />
         <Counter />
+        <HighscoreList />
       </div>
       
     )
